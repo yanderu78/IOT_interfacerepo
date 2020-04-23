@@ -1,0 +1,19 @@
+<body>
+  <div>
+    <h1>
+      How should your coffe be this morning {{ title }}!
+    </h1>
+    <input type="number" id="myNumber" value="45" />
+    <button (click)="SendTemp()">Just like that!</button>
+  </div>
+  <br /><br /><br />
+  <button
+    (click)="NotifyBlock('are you still there? your coffee will get cold if you dont answer', 'Yes I am')"
+  >
+    test forgoten mug
+  </button>
+  <br />
+  <button (click)="NotifyBlock('Something is blocking the heater', 'Ok')">
+    test not mug
+  </button>
+</body>
